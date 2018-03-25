@@ -1,0 +1,206 @@
+
+body,div,a,span,ul,li,dt,dd,h1,h2,h3,h4,h5,h6,input,p{
+margin:0;
+padding:0;
+}
+
+ul,li{
+	list-style:none;
+}
+a{
+	text-decoration: none;/*去掉下划线*/
+	display: block;
+}
+/*a:hover{
+	background:none;
+}
+a:link {
+	background:none;
+}
+a:active {
+	background:none;
+}
+a:hover {
+	background:none;
+}
+a:visited {
+	background:none;
+}   并不能去a的颜色*/
+
+img{
+	display: block;
+	border:none;
+}
+
+body{
+	
+	background-color: #f8ffd3;
+	}
+	.container{
+		width:700px;
+		margin:0px auto;
+	}
+	.header{
+	
+   
+		margin:0px auto;
+
+	}
+	.header .header-banner{
+		width:700px;
+		height:120px;
+		margin:0px auto;
+	}
+
+	.header .header-nav{
+	
+		width:700px;
+		height: 33px;
+	}
+	.header  .header-nav  .item{
+		float:left;
+		height:33px;
+		width:100px;
+		font-size:16px;
+		text-align: center;
+		color: #000;
+		background: url("../images/button1.jpg");
+	}
+	.header .header-nav  .item:hover{
+		font-size:16px;
+		color: #fff;
+		text-decoration: underline;/*下划线*/
+		background: url("../images/button1_bg.jpg");
+	}
+.leftpart{
+	width:180px;
+	height: ;
+	background-color: #fff;
+	float:left;
+	
+}
+
+.leftpart .userlogin{
+	width:180px;
+	height:;
+	float: 
+	
+}
+.leftpart .userlogin .login{
+	width:180px;
+	height: 50px;
+}
+.leftpart .userlogin .forget{
+	float:left;
+	font-size: 16px;
+}
+.leftpart .product-classification {
+width:180px;
+height:;
+
+}
+.leftpart .product-classification .list{
+	width:160px;
+	height:;
+	margin:0 auto;
+	
+}
+.leftpart .product-classification .list .title{
+	background: pink;
+	font-size:22px;
+	text-align: left;
+	margin-top: 2px;
+}
+.leftpart .product-classification .list .item{
+	width:160px;
+	height:30px;
+	
+
+	border-bottom: 1px dotted  #00686b; 
+}
+
+.leftpart .product-classification   .item  .red-icon{
+	width:5px;
+	height:5px;
+    margin-top:12px;
+    margin-left:12px;
+	background:url("../images/red-icon.png");
+	float:left;
+}
+.leftpart .product-classification  .item  .content{
+	float:left;
+	margin-top:8px;
+	margin-left:12px;
+
+}
+.main{
+	
+}
+.rightpart{
+	width:518px;
+	height: px;
+	float:left;
+	margin-left:2px;
+	
+}
+ .rightpart .part1{
+	width:518px;
+	height: px;
+	
+}
+ .rightpart .part1 .banner{
+	width:518px;
+	height:33px;
+	
+}
+.main .part1 .latest{
+	width:519px;
+	height:107px;
+	overflow: hidden;
+}
+.main .part1 .latest .item{
+	width:172px;
+	height: 107px;
+    float:left;
+    margin-right:1px;
+}
+.main .part2{
+	width:518px;
+}
+.main .part2 .display{
+	width:549px;
+	
+	overflow: hidden;
+}
+.main .part2 .display .item{
+	width:106px;
+	height:146px;
+    float:left;
+    margin-right:31px;
+}
+.main .part2 .display .pic{
+
+}
+.main .part2 .display .item .content{
+ padding:0 auto;
+ text-align: center;
+}
+.main .part4{
+	width:518px;
+}
+.main .part4 .tips{
+
+}
+
+.main .part4 .tips .item{
+width:218px;
+float:left;
+font-size:12px;
+color:#000;
+}
+.main .part4 .tips .item .icon{
+	width:3px;
+	height:5px;
+	margin-top:20px ;
+	margin-left:20px ;
+}

@@ -1,0 +1,33 @@
+body,div,a,span,ul,li,dt,dd,h1,h2,h3,h4,h5,h6,input,p{
+margin:0;
+padding:0;
+}
+
+ul,li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display:block;
+}
+
+
+
+.header{
+	height:51px;
+}
+.header .container{
+	width:1385px;
+}
+.header  .container .fendi-logo{
+	float:left;
+	width:120px;
+	height:51px;
+}
+.header  .container  .index-nav{
+float:left;
+margin-right: ;
+margin-bottom: 0px;
+}
